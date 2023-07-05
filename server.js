@@ -89,7 +89,7 @@ app.get('/f',(req,res)=>{
 const generateRandomPort = Randomport();
 
 
-mongoose.connect("mongodb+srv://imdiku:hazarikaarman13@imd-server-1.otwzqes.mongodb.net/")
+mongoose.connect("mongodb+srv://name:password123@server-name.otwzqes.mongodb.net/")
 .then(() => {
     console.log("Connected to mongoDB");
     app.listen(3000, ()=> {
